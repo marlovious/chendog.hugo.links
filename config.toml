@@ -1,0 +1,22 @@
+theme = "lynx"
+title = "Chendog"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "Chendog"
+  headline = "Hired Gun, Production Ninja, Pork FLoss Affecianado"
+  
+image = "Goat.SPliff.jpeg"
+  links = [
+    { email = { href = "mailto:jaredchen@gmail.com", text = "Let's Work Together! - Email Me." } },
+    { whatsapp = { href = "https://www.linkedin.com/in/marlovious/", text = "Hit Me Up!"} }
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
